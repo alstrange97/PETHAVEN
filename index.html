@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetHaven</title>
+   
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" tabindex="0">
+  
+    <!-- NAVBAR START -->
+
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: white; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center me-auto" href="#">
+          <img src="cc.PNG" style="height: 50px;">
+          <span style="font-weight: bold; font-size: 20px; color: #000; font-weight: 900;">PetHaven</span>
+        </a>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <img src="https://i.ibb.co.com/j3G1fPJ/Tak-berjudul101-20241208193823.png" style="height: 50px;">
+            </h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2 active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" aria-current="page" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#service">Service</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#porto">Portofolio</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#faq">FAQ</a>
+              </li>  
+              <li class="nav-item">
+                <a class="nav-link mx-lg-2" href="#location">Location</a>
+              </li>               
+            </ul>
+          </div>
+        </div>
+        <a href="#contact" class="contact-button">Contact</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </nav>
+    
+
+    <!-- Hero Start-->
+    <section class="hero-section d-flex align-items-center" style="height: 100vh; margin-top: 50px;">
+      <div class="container" style="padding: 50px;">
+        <div class="row">
+          <div class="col-lg-6 text-start">
+            <h1 class="display-4 " style="color: #000000; font-weight: 900;">Your Pet's Happiness<br>Our Priority</h1>
+            <p class="lead mt-3" style="color: #573836;">We care for your pets with the same love and dedication they bring to your life. From gentle hands to happy tails, we’re here for every step of their journey.</p>
+            <a href="#" class="btn btn-primary btn-lg mt-4 yellow-btn" data-aos="zoom-in">Make Them Happy</a>
+          </div>
+        </div>
+      </div>
+    </section>
+     <!-- HERO End -->
+
+  
+    <!-- ABOUT START-->
+<div class="zo" style="background: linear-gradient(to bottom, #6C4DDC, #483395); position: relative;">
+  <section class="container py-5">
+      <div class="text-center mb-5">
+          <h1 id="about" style="width: 50%; margin: auto; font-weight: 800; color: white; margin: auto;" data-aos="fade-down"
+          data-aos-anchor-placement="center-bottom">
+              We aim to help pets experience the 
+              <span style="color: #EFC558;">best care, enjoy a safe haven, and find happiness</span> every day.
+          </h1>
+      </div>
+
+      <div class="row text-center">
+          <div class="col-6 col-md-3 mb-4">
+              <img src="assets/1.jpeg" class="img-fluid rounded-circle" alt="Photo 1" data-aos="zoom-out" data-aos-delay="200">
+              <div class="photo-name" data-aos="fade-up">Jhonny</div>
+              <div class="photo-description" data-aos="fade-up" >Founder</div>
+          </div>
+          <div class="col-6 col-md-3 mb-4" style="position: relative;">
+            <img src="assets/2.jpeg" class="img-fluid rounded-circle" alt="Photo 2" data-aos="zoom-out" data-aos-delay="300">
+            <div class="photo-name" data-aos="fade-up">Manda</div>
+            <div class="photo-description" data-aos="fade-up">Head Seller</div>
+            
+            <img data-aos="zoom-in" data-aos-delay="300" src="https://i.ibb.co.com/ryGd9Y2/Tak-berjudul131-20241212172529.png" alt="Bullet Photo" class="bullet-decoration">
+        </div>
+        <div class="col-6 col-md-3 mb-4" style="position: relative;">
+          <img src="assets/3.jpeg" class="img-fluid rounded-circle" alt="Photo 2" data-aos="zoom-out" data-aos-delay="400">
+          <div class="photo-name" data-aos="fade-up">Asep</div>
+          <div class="photo-description" data-aos="fade-up">Head Grooming</div>
+          
+          <img data-aos="zoom-in" data-aos-delay="300" src="https://i.ibb.co.com/NS4FP26/Tak-berjudul131-20241212172501.png" alt="Bullet Photo" class="bulet-decoration">
+      </div>
+          <div class="col-6 col-md-3 mb-4">
+              <img src="assets/4.jpg" class="img-fluid rounded-circle" alt="Photo 4" data-aos="zoom-out" data-aos-delay="500">
+              <div class="photo-name" data-aos="fade-up">Head Hotel</div>
+              <div class="photo-description" data-aos="fade-up">Small description</div>
+          </div>
+      </div>
+  </section>
+  <img  src="https://i.ibb.co.com/d0g43XC/Tak-berjudul128-20241212165011.png" alt="Star" class="star-decoration" data-aos="fade-down" data-aos-delay="200">
+</div>
+
+<!-- ABOUT END -->
+
+
+<!-- Service Start -->
+<div class="text-center" style="color:  #6C4DDC; margin-top: 50px;">
+  <h1 style=" font-weight: 900;" data-aos="zoom-out" id="service" >Our Service</h1>
+</div>
+
+ <div class="container mt-4" >
+  <div class="row justify-content-center">
+    <div class="col-auto">
+      <div class="custom-card" data-aos="zoom-in" data-aos-delay="100">
+        <img src="https://i.ibb.co.com/tQWXPrz/Tak-berjudul105-20241212183254.png" alt="Foto 1" class="card-photo">
+        <h5 class="card-title mt-2" style="color: #573836;">Hotel</h5>
+        <p class="card-desc">We offer comfortable stays for your pets. Your furry friends will feel right at home with us.</p>
+      </div>
+    </div>
+    <div class="col-auto">
+      <div class="custom-card" data-aos="zoom-in" data-aos-delay="200">
+        <img src="https://i.ibb.co.com/5RvQLPf/Tak-berjudul105-20241212183242.png" alt="Foto 2" class="card-photo">
+        <h5 class="card-title mt-2">Grooming</h5>
+        <p class="card-desc">Expert grooming services are here for you. Enjoy a fresh and stylish look every time</p>
+      </div>
+    </div>
+    <div class="col-auto">
+      <div class="custom-card" data-aos="zoom-in" data-aos-delay="300">
+        <img src="https://i.ibb.co.com/sVbt2pb/Tak-berjudul105-20241212183220.png" alt="Foto 3" class="card-photo">
+        <h5 class="card-title mt-2">Pet Store</h5>
+        <p class="card-desc">Quality products are available for all your needs. We provide the best to meet your expectations.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Service End -->
+
+
+
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+<!-- Standart START -->
+<div class="bgo" style="background-color: #F9F9F9; margin-top: -50px; margin-top: 80px;">
+  <div class="text-center" style="color: #6C4DDC; margin-top: 50px; padding: 50px;">
+   <h1 style="font-weight: 900;" data-aos="fade-up">Our Pet Care Standard</h1>
+ </div>
+ 
+
+  <div class="containerr py-5">
+   <div class="row content-section align-items-center content-row" style="background-color: #F9F9F9">
+     <div class="col-md-4" data-aos="fade-right"  >
+       <img src=" https://i.ibb.co.com/NpFF7xv/Rectangle-20.png" alt="Foto 1" class="img-fluid bordered-image">
+     </div>
+     <div class="col-md-6 text-left" data-aos="fade-right"  data-aos-delay="200">
+       <h3>Generous Pet Playgrounds</h3>
+       <p>Our wide pet play zones are crafted to ensure your furry friends have plenty of room to roam, discover, and interact with other pets in a secure and well-monitored setting.</p>
+     </div>
+   </div>
+
+   <div class="row content-section align-items-center content-row flex-md-row-reverse" style="background-color: #F9F9F9">
+     <div class="col-md-4" data-aos="fade-left" data-aos-delay="300">
+       <img src="https://i.ibb.co.com/pvrgT3v/Rectangle-21.png" alt="Foto 2" class="img-fluid  borderedd-image">
+     </div>
+     <div class="col-md-6 text-right" data-aos="fade-left" data-aos-delay="400">
+       <h3>
+         Comfortable Resting Spots</h3>
+       <p>After an exciting day of play, your pet can unwind in our comfortable resting areas, complete with plush bedding and a tranquil ambiance, helping them feel right at home.</p>
+     </div>
+   </div>
+
+   <div class="row content-section align-items-center content-row" style="background-color: #F9F9F9">
+     <div class="col-md-4" data-aos="fade-right" data-aos-delay="500">
+       <img src="https://i.ibb.co.com/1M5stgJ/Rectangle-22.png" alt="Foto 3" class="img-fluid  bordered-image">
+     </div>
+     <div class="col-md-6 text-left" data-aos="fade-right" data-aos-delay="600">
+       <h3>Pristine and Safe Environment</h3>
+       <p>We focus on the well-being and safety of all our guests by keeping our facility clean and safe, using premium cleaning products and regular sanitization to maintain a healthy space for your pet.</p>
+     </div>
+   </div>
+
+   <div class="d-flex justify-content-center align-items-center vh-90">
+     <button class="btn custom-btn"  data-aos="zoom-in" data-aos-delay="700">Schedule a Visit</button>
+   </div>
+ </div>
+</div>
+  <!-- Standart END -->
+
+
+<!-- PORTO START -->
+<div class="porto container d-flex align-items-center justify-content-center" style="color: #6C4DDC; margin-top: 100px; margin-bottom: 100px;" id="porto">
+  <div class="foto col-md-4 mb-0" style="position: relative;">
+    <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExample" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      </div>
+      <div class="carousel-inner" data-aos="zoom-in" data-aos-delay="100">
+        <div class="carousel-item active">
+          <img src="https://i.ibb.co.com/5Kvy0VX/Whats-App-Image-2024-12-08-at-21-36-31.jpg" class="d-block w-100" alt="Foto 1">
+        </div>
+        <div class="carousel-item">
+          <img src="https://i.ibb.co.com/5FF0xc3/Whats-App-Image-2024-12-08-at-21-36-27.jpg" class="d-block w-100" alt="Foto 2">
+        </div>
+      </div>
+    </div>
+
+    <img  data-aos="zoom-out" data-aos-delay="500" src="https://i.ibb.co.com/NS4FP26/Tak-berjudul131-20241212172501.png " alt="Bullet Photo Left" class="bullet-left">
+
+    <img  data-aos="zoom-out" data-aos-delay="500" src="https://i.ibb.co.com/VMsf546/Tak-berjudul131-20241212191205.png" alt="Bullet Photo Right" class="bullet-right">
+
+  </div>
+
+  <div class="tulisan col-md-0">
+    <div class="container mt-5">
+      <div class="big-title" style="font-weight: 900;" data-aos="fade-left" data-aos-delay="200">Tailored Grooming<br><span style="color: #EFC558;">Stunning Results!</span></div>
+      <div class="small-title"  data-aos="fade-up" data-aos-delay="300" >We’ve Cared for:</div>
+      <div class="stats">
+        <div class="row">
+          <div class="col-md-6 stat-item" >
+            <div class="number" style="font-weight: 900;"  data-aos="zoom-out" data-aos-delay="500">500<span style="color: #EFC558;">+</span></div>
+            <div class="description">Pets Cared for<br>Here!</div>
+          </div>
+          <div class="col-md-6 stat-item">
+            <div class="number" style="font-weight: 900;" data-aos="zoom-out" data-aos-delay="600">100<span style="color: #EFC558;">+</span></div>
+            <div class="description">Pets Have Stayed with Us!</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- PORTO END -->
+
+  
+<!-- CHOOSE START -->
+
+<div class="bgo">
+  <div class="text-center" style="color: #6C4DDC; margin-top: 50px; padding-top: 50px;" >
+   <h1 data-aos="zoom-out" data-aos-delay="100" style=" font-weight: 900 !important;">Why <span style="color: #EFC558;">Choose</span> Us?</h1>
+ </div>
+ 
+<div class="poal">
+<div class="container mt-4" style="padding: 50px;">
+  <div class="row row-cols-2 row-cols-lg-3 g-4">
+    <div class="col">
+      <div class="grid-item" data-aos="zoom-out" data-aos-delay="200">
+        <img src="https://i.ibb.co.com/1TKqTq2/Tak-berjudul107-20241212185350.png" alt="Placeholder Image">
+        <h5>Expert care</h5>
+        <p>Professional, attentive care for every pet.</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="grid-item" data-aos="zoom-out" data-aos-delay="300">
+        <img src="https://i.ibb.co.com/f2Y1999/Tak-berjudul122-20241212185251.png" alt="Placeholder Image">
+        <h5>Comfortable Stay</h5>
+        <p>A cozy and safe enviroment for pets to relax and enjoy.</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="grid-item" data-aos="zoom-out" data-aos-delay="400">
+        <img src=" https://i.ibb.co.com/R0FkSJj/Tak-berjudul123-20241212185313.png" alt="Placeholder Image">
+        <h5>Grooming Service</h5>
+        <p>Complete grooming to keep your pet looking their best.</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="grid-item" data-aos="zoom-out" data-aos-delay="400">
+        <img src="https://i.ibb.co.com/6gTwXLg/Tak-berjudul125-20241212185422.png" alt="Placeholder Image">
+        <h5>Premium Products</h5>
+        <p>High-quality pet  products avaible for all your needs.</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="grid-item" data-aos="zoom-out" data-aos-delay="500">
+        <img src="https://i.ibb.co.com/C6PRqpn/Tak-berjudul126-20241212185446.png" alt="Placeholder Image">
+        <h5>Play and Socialization</h5>
+        <p>Engaging acttivies to keep your pet happy and active.</p>
+      </div>
+    </div>
+    <div class="col">
+      <div class="grid-item" data-aos="zoom-out" data-aos-delay="600">
+        <img src="https://i.ibb.co.com/BsLBhK3/Tak-berjudul127-20241212185555.png" alt="Placeholder Image">
+        <h5>Convenient Location</h5>
+        <p>Easily accessible with ample parking for your convenience.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+   <!-- CHOOSE END-->
+
+   
+
+   <!-- FAQ START -->
+   <div class="container py-5" style="width: 80%;" id="faq">
+    <h2 class="faq-title" style="font-weight: 900; color: #6C4DDC;" data-aos="fade-down">Frequently Asked Questions</h2>
+    <div class="accordion" id="faqAccordion">
+        <div>
+            <div class="faq-question" id="question1" data-bs-toggle="collapse" data-bs-target="#answer1" aria-expanded="false" aria-controls="answer1"  data-aos="fade-up"  data-ao-delay="800">
+                <span>What services do you offer at PetHaven?</span>
+                <button class="btn btn-sm"><i class="bi bi-arrow-down-circle" style="font-size: 25px;"></i></button>
+            </div>
+            <div id="answer1" class="collapse" aria-labelledby="question1" data-bs-parent="#faqAccordion">
+                <p class="faq-answer">At PetHaven, we offer professional pet grooming, a cozy pet hotel for your furry friends, and a wide range of pet supplies, including food, toys, and accessories.</p>
+            </div>
+        </div>
+    
+        <div>
+            <div class="faq-question" id="question2" data-bs-toggle="collapse" data-bs-target="#answer2" aria-expanded="false" aria-controls="answer2" data-aos="fade-up"  data-ao-delay="700">
+                <span>What types of pets can be groomed at PetHaven?</span>
+                <button class="btn btn-sm"><i class="bi bi-arrow-down-circle" style="font-size: 25px;"></i></button>
+            </div>
+            <div id="answer2" class="collapse" aria-labelledby="question2" data-bs-parent="#faqAccordion">
+                <p class="faq-answer">We provide grooming services for various pets, including dogs, cats, and small animals like rabbits and guinea pigs. Our trained staff ensures your pet feels comfortable and cared for.</p>
+            </div>
+        </div>
+      
+        <div>
+            <div class="faq-question" id="question3" data-bs-toggle="collapse" data-bs-target="#answer3" aria-expanded="false" aria-controls="answer3" data-aos="fade-up"  data-ao-delay="600">
+                <span>What payment methods are accepted?</span>
+                <button class="btn btn-sm"><i class="bi bi-arrow-down-circle" style="font-size: 25px;"></i></button>
+            </div>
+            <div id="answer3" class="collapse" aria-labelledby="question3" data-bs-parent="#faqAccordion">
+                <p class="faq-answer">We accept various payment methods, including credit cards, bank transfers, and digital wallets.</p>
+            </div>
+        </div>
+    
+        <div>
+            <div class="faq-question" id="question4" data-bs-toggle="collapse" data-bs-target="#answer4" aria-expanded="false" aria-controls="answer4" data-aos="fade-up"  data-ao-delay="500">
+                <span>Is the pet hotel suitable for long-term stays?</span>
+                <button class="btn btn-sm"><i class="bi bi-arrow-down-circle" style="font-size: 25px;"></i></button>
+            </div>
+            <div id="answer4" class="collapse" aria-labelledby="question4" data-bs-parent="#faqAccordion">
+                <p class="faq-answer">Yes, our pet hotel accommodates both short-term and long-term stays. We ensure your pet receives proper care, regular feeding, and exercise throughout their stay.</p>
+            </div>
+        </div>
+
+        <div>
+            <div class="faq-question" id="question5" data-bs-toggle="collapse" data-bs-target="#answer5" aria-expanded="false" aria-controls="answer5" data-aos="fade-up"  data-ao-delay="400">
+                <span>Are your pet care products eco-friendly?</span>
+                <button class="btn btn-sm"><i class="bi bi-arrow-down-circle" style="font-size: 25px;"></i></button>
+            </div>
+            <div id="answer5" class="collapse" aria-labelledby="question5" data-bs-parent="#faqAccordion">
+                <p class="faq-answer">Many of our pet care products are eco-friendly, including biodegradable waste bags, natural grooming products, and sustainable pet toys. We strive to promote environmentally conscious choices.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+   <!-- FAQ END -->
+
+
+
+   <!-- TESTIMONIAL START -->
+   <section class="bg-dark-primary py-lg-8 py-6 zopi">
+    <div class="container py-lg-6 py-lg-8">
+      <div class="row">
+        <div class="col-xxl-6 offset-xxl-3 col-lg-8 offset-lg-2 col-12">
+          <div class="text-center mb-6 d-flex flex-column gap-2">
+            <h2 data-aos="zoom-in" class="mb-0 text-white h1" style="font-weight: 900; padding: 50px; color: #6C4DDC !important; margin-top: -50px;">Our Happy Customers</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row gy-4" style="padding: 50px; margin-top: -70px;">
+        <div class="col-lg-4 col-12 d-flex flex-column gap-4">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"  data-aos="fade-up">
+            <div class="card card-light-primary rounded-4">
+              <div class="card-body d-flex flex-column gap-3">
+                <div class="d-flex flex-row gap-3 align-items-center">
+                  <img src="data:image/jpeg;base64,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" alt="avatar 1" class="avatar avatar-md rounded-circle">
+                  <h3 class="mb-0 custom-anjay">Choi Beomgyu</h3>
+                </div>
+                <div>
+                  <p class="mb-0 fs-5 pe-xxl-5 hoyy">
+                    The grooming service at PetHaven is absolutely top-notch! My dog looks and feels amazing every time. Highly recommended for anyone who loves their pet!
+                  </p>
+                </div>
+                <div class="d-flex flex-xl-row gap-2 align-items-center bg-light rounded-pill px-3 py-2">            
+                  <div>
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aos="fade-up" data-aos-delay="200">
+            <div class="card card-light-primary rounded-4">
+              <div class="card-body d-flex flex-column gap-3">
+                <div class="d-flex flex-row gap-3 align-items-center">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSevygSSm89LSR10wwCiV9AOOUIxZiA-PTu_g&s" alt="avatar 3" class="avatar avatar-md rounded-circle">
+                  <h3 class="mb-0 custom-anjay">Choi Soobin</h3>
+                </div>
+                <div>
+                  <p class="mb-0 fs-5 pe-xxl-5 hoyy">
+                    PetHaven's pet hotel is a lifesaver when I'm traveling. My cat is always well-cared for, and I get regular updates to keep me at ease.
+                  </p>
+                </div>
+                <div class="d-flex flex-xl-row gap-2 align-items-center bg-light rounded-pill px-3 py-2">            
+                  <div>
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+   
+        <div class="col-lg-4 col-12 d-flex flex-column gap-4" data-aos="fade-up" data-aos-delay="200">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="card card-light-primary rounded-4">
+              <div class="card-body d-flex flex-column gap-3">
+                <div class="d-flex flex-row gap-3 align-items-center">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTweS769NFa8NjlDIlWVAxpoPkJRdmlE0oOXQ&s" alt="avatar 5" class="avatar avatar-md rounded-circle">
+                  <h3 class="mb-0 custom-anjay">Choi Yeonjun</h3>
+                </div>
+                <div>
+                  <p class="mb-0 fs-5 pe-xxl-5 hoyy">
+                    I found the perfect products for my rabbit at PetHaven. Their store has everything you need for all kinds of pets. Truly one-stop shopping!
+                  </p>
+                </div>
+                <div class="d-flex flex-xl-row gap-2 align-items-center bg-light rounded-pill px-3 py-2">            
+                  <div>
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+
+
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aos="fade-up" data-aos-delay="300">
+            <div class="card card-light-primary rounded-4">
+              <div class="card-body d-flex flex-column gap-3">
+                <div class="d-flex flex-row gap-3 align-items-center">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRBbJFulv8Ww25tunFhfiOWEEoBoEdCZZvs1Q&s" alt="avatar 5" class="avatar avatar-md rounded-circle">
+                  <h3 class="mb-0 custom-anjay">Kang Taehyun</h3>
+                </div>
+                <div>
+                  <p class="mb-0 fs-5 pe-xxl-5 hoyy">
+                    PetHaven's variety of pet products is incredible! From toys to food and even specialty items. The staff is always so helpful in recommending the right products for my pets.
+                  </p>
+                </div>
+                <div class="d-flex flex-xl-row gap-2 align-items-center bg-light rounded-pill px-3 py-2">            
+                  <div>
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+   
+        <div class="col-lg-4 col-12 d-flex flex-column gap-4" data-aos="fade-up" data-aos-delay="300">
+          <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            <div class="card card-light-primary rounded-4">
+              <div class="card-body d-flex flex-column gap-3">
+                <div class="d-flex flex-row gap-3 align-items-center">
+                  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQK6JyDZh7rjJiMCFZcVACnZV1TLDFwIsYCag&s" alt="avatar 9" class="avatar avatar-md rounded-circle">
+                  <h3 class="mb-0 custom-anjay">Hueningkai</h3>
+                </div>
+                <div>
+                  <p class="mb-0 fs-5 pe-xxl-5 hoyy">
+                    Amazing grooming service with friendly staff! My golden retriever absolutely loves coming here. They pay close attention to detail and ensure that every pet is comfortable.
+                  </p>
+                </div>
+                <div class="d-flex flex-xl-row gap-2 align-items-center bg-light rounded-pill px-3 py-2">            
+                  <div>
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+
+        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" data-aos="fade-up" data-aos-delay="400" >
+            <div class="card card-light-primary rounded-4">
+              <div class="card-body d-flex flex-column gap-3">
+                <div class="d-flex flex-row gap-3 align-items-center">
+                  <video class="avatar avatar-md rounded-circle" controls>
+                    <source src="manda.mov" type="video/mp4">
+                  </video>
+                  
+                   <h3 class="mb-0 custom-anjay">Manda</h3>
+                </div>
+                <div>
+                  <p class="mb-0 fs-5 pe-xxl-5 hoyy">
+                    The pet hotel at PetHaven is like a home away from home for my pup. They take such great care of him, and I can tell he’s happy there.
+                  </p>
+                </div>
+                <div class="d-flex flex-xl-row gap-2 align-items-center bg-light rounded-pill px-3 py-2">            
+                  <div>
+                    <div class="d-flex align-items-center justify-content-center">
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                      <span class="text-warning display-6"><i class="bi bi-star-fill"></i></span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+
+        </div>
+      </div>
+    </div>
+   </section>
+
+   <!-- TESTIMONIAL END -->
+
+
+   <!-- CONTACT START -->
+
+   <div class="bgo" id="contact">
+    <div class="text-center" style="color: #6C4DDC; margin-top: 50px;">
+     <h1 data-aos="zoom-out" data-aos-delay="100" style=" font-weight: 900 !important;">Our Media Social</h1>
+   </div>
+
+   <div class="container my-5">
+    <div class="d-flex justify-content-center gap-3">
+      <div class="custoom-card card-instagram" data-account="@instagramhandle" data-aos="fade-up">
+        <i class="bi bi-instagram"></i>
+      </div>
+      <div class="custoom-card card-whatsapp" data-account="085709297847" data-aos="fade-up">
+        <i class="bi bi-whatsapp"></i>
+      </div>
+      <div class="custoom-card card-tiktok" data-account="@tiktokhandle" data-aos="fade-up">
+        <i class="bi bi-tiktok"></i>
+      </div>
+    </div>
+  </div>
+  
+
+   <!-- CONTACT END-->
+
+   <div class="container py-5" style="padding: 70px;" id="location" data-aos="fade-right" data-ao-delay="200">
+    <div class="row align-items-center">
+      <div class="col-lg-6 mb-4 mb-lg-0">
+        <h1 class="mb-3" style="font-weight: 900; color: #6C4DDC;">Lokasi Kami</h1>
+        <p class="mb-2" style="font-weight: 700;">TEMANGGUNG, INDONESIA</p>
+        <p class="mb-4">
+          Dusun Dotakan, RT.04/RW.01, Kauman, Candiroto,<br>
+          Kabupaten Temanggung, Jawa Tengah
+        </p>
+        <p class="mb-1" style="font-weight: 700;">Jam Operasional:</p>
+        <ul class="list-unstyled">
+          <li>Senin - Sabtu (09:00 - 17:00)</li>
+          <li>Minggu (12:00 - 17:00)</li>
+        </ul>
+      </div>
+      <div class="col-lg-6">
+        <iframe   data-aos="fade-left" data-ao-delay="300" style="border-radius: 10px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.851069773917!2d106.74163527528526!3d-6.787970893209139!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69cdd09f2eb1db%3A0x6d66970f38a65250!2sNo%20name!5e0!3m2!1sid!2sid!4v1734276284243!5m2!1sid!2sid" 
+                width="100%" height="350" style="border:0;" 
+                allowfullscreen="" loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Footer START -->
+  
+  <footer class="text-center text-lg-start text-white" style="background-color: #1c2331; margin-top:250px;"  >
+    <section   class="d-flex justify-content-between p-4" style="background-color: #6351ce" >
+      <div class="me-5">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <div>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="text-white me-4">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </section>
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <div class="row mt-3">
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <img src="cc.PNG" style="height: 120px; padding: 10px;" alt="Gambar Selamat datang"/>
+            <p>
+              We believe pets deserve the best care. Grooming and pet hotel services to quality pet products, we treat your pet like family.
+            </p>
+          </div>
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold">Service</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#!" class="text-white">Grooming</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Hotel</a>
+            </p>
+            <p>
+              <a href="#!" class="text-white">Pet Store</a>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p>
+              <a href="#about" class="text-white">About</a>
+            </p>
+            <p>
+              <a href="#service" class="text-white">Service</a>
+            </p>
+            <p>
+              <a href="#porto" class="text-white">Portofolio</a>
+            </p>
+            <p>
+              <a href="#faq" class="text-white">FAQ</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <hr
+                class="mb-4 mt-0 d-inline-block mx-auto"
+                style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+            <p><i class="fas fa-home mr-3"></i> Brooklyn, NY 2112, US</p>
+            <p><i class="fas fa-envelope mr-3"></i> PetHaven@example.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 08 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 08 234 567 89</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div
+         class="text-center p-3"
+         style="background-color: rgba(0, 0, 0, 0.2)"
+         >
+      © 2020 Copyright:
+      <a class="text-white" href="#"
+         >Alstrange</a
+        >
+    </div>
+  </footer>
+
+<!-- FOOTER End  -->
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script type="text/javascript" src="vanilla-tilt.js"></script>
+   <script>
+   AOS.init();
+  </script>
+   <!-- BOOTSTRAP JS -->
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
